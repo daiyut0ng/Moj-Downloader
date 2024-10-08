@@ -12,15 +12,15 @@ A Telegram bot that allows users to download videos from the Moj app using `yt-d
 ## Project Structure
 moj_video_downloader/
 │
-├── main.py # Main bot code
-├── requirements.txt # List of dependencies
-├── .env # Environment variables (not included in version control)
-├── README.md # Project documentation
-├── video_processing/ # Directory for processing videos
-│   ├── __init__.py # Makes this a package
-│   ├── download.py # Functions related to downloading videos
-│   └── processing.py # Functions related to video processing
-└── utils/ # Utility functions
-    ├── __init__.py # Makes this a package
-    ├── logger.py # Logging utilities
-    └── progress.py # Progress tracking functions
+├── main.py                   # Main bot code
+├── requirements.txt          # List of dependencies
+├── .env                      # Environment variables (not included in version control)
+├── README.md                 # Project documentation
+├── video_processing/          # Directory for processing videos
+│   ├── __init__.py           # Makes this a package
+│   ├── download.py           # Functions related to downloading videos
+│   └── processing.py         # Functions related to video processing
+└── utils/                    # Utility functions
+    ├── __init__.py           # Makes this a package
+    ├── logger.py             # Logging utilities
+    └── progress.py           # Progress tracking functions
