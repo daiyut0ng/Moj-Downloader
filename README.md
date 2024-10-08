@@ -24,3 +24,28 @@ moj_video_downloader/
     ├── __init__.py           # Makes this a package
     ├── logger.py             # Logging utilities
     └── progress.py           # Progress tracking functions
+
+    
+## Installation
+
+### Prerequisites
+
+- **Python**: Ensure you have Python 3.8 or higher installed on your machine. You can download it from the [official Python website](https://www.python.org/downloads/).
+- **FFmpeg**: This bot requires `ffmpeg` for video processing. Install it according to your operating system:
+  - **Windows**: Download the executable from the [FFmpeg website](https://ffmpeg.org/download.html#build-windows) and add it to your system's PATH.
+  - **macOS**: Use Homebrew to install `ffmpeg`:
+    ```bash
+    brew install ffmpeg
+    ```
+  - **Linux**: Install `ffmpeg` using your package manager:
+    ```bash
+    sudo apt-get install ffmpeg  # Debian/Ubuntu
+    sudo dnf install ffmpeg      # Fedora
+    ```
+
+### Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/moj_video_downloader.git
+   cd moj_video_downloader
